@@ -41,7 +41,7 @@ class Addition_2
         Scanner sc = new Scanner(System.in);
         Addition_2 obj= new Addition_2();
         int x,y;
-        int a=5;
+        double a=5.8;
         System.out.println("Enter the first value of x: ");
         x=sc.nextInt();
         System.out.println("Enter the second value of y: ");
@@ -51,12 +51,9 @@ class Addition_2
         obj.dummy(a);
     }
 
-    void dummy(int a)
+    void dummy(double a)
     {
-        if(a==6)
-        System.out.println("The value of a is " + a);
-        else
-        System.out.println("The value did not match");
+       System.out.println("The value must be "+ a);
     }
     
 }
